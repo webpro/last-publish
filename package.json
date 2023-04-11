@@ -1,0 +1,31 @@
+{
+  "name": "last-publish",
+  "version": "1.0.0",
+  "description": "Get the date of the last published version of a package in the npm registry",
+  "main": "index.js",
+  "type": "module",
+  "bin": {
+    "last-publish": "./cli.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/webpro/last-publish.git"
+  },
+  "keywords": [
+    "npm",
+    "publish",
+    "last",
+    "latest",
+    "release",
+    "date"
+  ],
+  "author": "Lars Kappert <lars@webpro.nl>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/webpro/last-publish/issues"
+  },
+  "homepage": "https://github.com/webpro/last-publish#readme",
+  "engines": {
+    "node": ">=17.0.0"
+  }
+}
